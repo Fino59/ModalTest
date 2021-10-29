@@ -1,0 +1,30 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffcf00;
+}
+
+.app__logo {
+  max-width: 70%;
+  background-size: cover;
+}
+
+.app__btn {
+  margin-top: 50px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  background-color: #003d6a;
+  color: #fff;
+  transition: background-color 250ms ease;
+}
+
+.app__btn:hover {
+  background-color: #012b49;
+}
